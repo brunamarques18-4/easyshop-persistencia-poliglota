@@ -55,12 +55,3 @@ A camada de apresentação não acessa arquivos, Room ou DAOs. Ela chama os `Ser
 4. Clique em **Run** para instalar e executar o app.
 
 > Na primeira execução, o Gradle baixará as dependências. O projeto requer conexão apenas nessa etapa de sincronização.
-
-## Roteiro de demonstração em vídeo
-
-1. Abra **Produtos (NoSQL)** e cadastre uma camiseta com `Tamanho: M` e `Cor: Azul`.
-2. Cadastre um notebook usando os atributos `Processador: i7`, `RAM: 16 GB` e `Voltagem: 220V`.
-3. Mostre na lista que os dois documentos possuem atributos diferentes sem qualquer alteração de schema.
-4. Abra **Clientes (SQL)** e cadastre um cliente com nome completo e e-mail válido.
-5. Tente cadastrar o mesmo e-mail novamente para evidenciar a restrição de unicidade da tabela relacional.
-6. Feche e abra o aplicativo para demonstrar que os dois conjuntos de dados continuam locais e persistidos.
